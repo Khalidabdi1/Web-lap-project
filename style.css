@@ -8,6 +8,10 @@ nav{
 header{
     margin-bottom: 200px;
 }
+.all-element{
+    border-radius: 0px 0px 48px 48px;
+    background-color:white;
+}
 
 
 body{
@@ -15,6 +19,8 @@ body{
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  margin: 0px;
+  background-color: black;
 }
 
 nav h1{
@@ -172,6 +178,71 @@ overflow: hidden;
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.Features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Features-continer{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.Features-title{
+    text-align: center;
+}
+.Features-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+}
+.Features-p{
+   
+   
+    margin-top: 0px;
+    color: #707070;
+    white-space: wrap;
+    
+}
+
+
+
+
+footer{
+    
+    width: 100%;
+    color: white;
+    height: 400px;
+}
+
+.Discover{
+    position: relative;
+    user-select: none;
+}
+
+.Nav-item{
+    display: none;
+    position: absolute;
+    top: 85px;
+    background-color: rgba(237, 237, 237, 1);
+    width: 300px;
+    border-radius: 38px;
+    padding: 15px;
+    right: 100px;
+    height: fit-content;
+    /* z-index: 2; */
+
+}
+
+.Discover:hover +  .Nav-item{
+    display: block;
+}
+
 
 
 /* 768px هذا هو مهم */
