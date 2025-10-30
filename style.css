@@ -1,0 +1,193 @@
+nav{
+    background-color: rgba(237, 237, 237, 0.8);
+    position: fixed;
+    top: 10px;
+    backdrop-filter: blur(15px);
+   
+}
+header{
+    margin-bottom: 200px;
+}
+
+
+body{
+        font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+nav h1{
+    font-size: 25px;
+  
+}
+
+nav h1:hover{
+    cursor: pointer;
+}
+
+.title{
+
+}
+
+
+.title-continer{
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 700;
+margin-top: 50px;
+flex-direction: column;
+}
+
+.title-continer h1{
+    font-size: 55px;
+    
+}
+
+.title-continer p{
+    color: #707070;
+    font-size: 18px;
+}
+
+.title-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.btn-one{
+    padding: 16px;
+    border-radius: 32px;
+    outline: none;
+    border: none;
+    margin-right: 20px;
+    background-color: #141414;
+    color: white;
+}
+
+.btn-one:hover ,.btn-two:hover{
+    cursor: pointer;
+}
+
+.btn-two{
+border: 1px #404040 solid;
+outline: none;
+padding: 16px;
+ border-radius: 32px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 157.36px;
+ height: 44px;
+ background-color: white;
+}
+
+
+.cards-contenir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    flex-direction: column;
+}
+
+.select-place{
+    background-color: #EDEDED;
+    border-radius: 38px;
+    display: flex;
+    justify-content: space-between;
+    width: 287px;
+    height: 44px;
+    padding: 5px;
+}
+
+.select-place h1{
+    font-size: 15px;
+}
+
+.select-place .selected{
+    background-color:white;
+    border-radius: 38px;
+    padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+
+}
+.select-place .selected:hover{
+    cursor: pointer;
+}
+
+.select-place .not-selected{
+    color: #ADADAD;
+    border-radius: 38px;
+    padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+}
+.select-place .not-selected{
+    cursor: pointer;
+}
+
+.cards{
+    height: 500px;
+    width: 100%;
+}
+
+.cards-items img {
+    width: 387px;
+    height: 329px;
+    border-radius: 16px;
+}
+.card-title{
+    font-size: 18.6px;
+    color: #141414;
+}
+.card-description{
+    color: #707070;
+    white-space: nowrap;
+       width: 35ch;
+overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.cards-items{
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    overflow: scroll;
+   height: 600px;
+   scrollbar-width: none;
+}
+.item{
+    width: 410px;
+    height: 73px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* 768px هذا هو مهم */
+@media (width<768px) {
+
+   body{
+    background-color: red;
+   }
+
+   nav h1{
+    font-size: 20px;
+  }
+
+  .title{
+
+  }
+
+
+}
