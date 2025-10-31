@@ -33,9 +33,9 @@ nav h1:hover{
     cursor: pointer;
 }
 
-.title{
+/* .title{
 
-}
+} */
 
 
 .title-continer{
@@ -254,9 +254,9 @@ footer{
 /* 768px هذا هو مهم */
 @media (width<768px) {
 
-   body{
+   /* body{
   
-   }
+   } */
 
    nav h1{
     font-size: 20px;
@@ -297,9 +297,9 @@ footer{
     margin-bottom: 100px;
   }
 
-  .title{
+  /* .title{
 
-  }
+  } */
 
 
 }
